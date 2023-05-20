@@ -7,27 +7,27 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Sheharyar's Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A passionate developer who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Shaharyar Khan Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "https://www.linkedin.com/in/sheharyar-khan-44b98b192/",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  title: "Shaharyar Khan",
+  logo_name: "ShaharyarKhan",
+  // nickname: "layman_brother",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A passionate developer who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+    "https://drive.google.com/file/d/14z0OyWQp11wFTg-oFzh8y5JErQx7-s1_/view?usp=share_link",
+  portfolio_repository: "https://github.com/Sheharyar-Khan401/myPortfolio",
+  // githubProfile: "https://github.com/ashutosh1919",
 };
 
 const socialMediaLinks = [
@@ -40,97 +40,85 @@ const socialMediaLinks = [
   // twitter: "https://twitter.com/ashutosh_1919",
   // instagram: "https://www.instagram.com/layman_brother/"
 
-  {
-    name: "Github",
-    link: "https://github.com/ashutosh1919",
-    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
-  },
+  // {
+  //   name: "Github",
+  //   link: "https://github.com/ashutosh1919",
+  //   fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
+  //   backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+  // },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
+    link: "https://www.linkedin.com/in/sheharyar-khan-44b98b192/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
-    name: "YouTube",
-    link: "https://youtube.com/c/DevSense19",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  },
-  {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:shaharyar.khan42@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
-  {
-    name: "Twitter",
-    link: "https://twitter.com/ashutosh_1919",
-    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
-    backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
-  },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
-  },
+  // {
+  //   name: "Facebook",
+  //   link: "https://www.facebook.com/laymanbrother.19/",
+  //   fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
+  //   backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
+  // },
+  // {
+  //   name: "Instagram",
+  //   link: "https://www.instagram.com/layman_brother/",
+  //   fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
+  //   backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  // },
 ];
 
 const skills = {
   data: [
-    {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
-        },
-      ],
-    },
+    // {
+    //   title: "Data Science & AI",
+    //   fileName: "DataScienceImg",
+    //   skills: [
+    //     "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
+    //     "⚡ Experience of working with Computer Vision and NLP projects",
+    //     "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: "Tensorflow",
+    //       fontAwesomeClassname: "logos-tensorflow",
+    //       style: {
+    //         backgroundColor: "transparent",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Keras",
+    //       fontAwesomeClassname: "simple-icons:keras",
+    //       style: {
+    //         backgroundColor: "white",
+    //         color: "#D00000",
+    //       },
+    //     },
+    //     {
+    //       skillName: "PyTorch",
+    //       fontAwesomeClassname: "logos-pytorch",
+    //       style: {
+    //         backgroundColor: "transparent",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Python",
+    //       fontAwesomeClassname: "ion-logo-python",
+    //       style: {
+    //         backgroundColor: "transparent",
+    //         color: "#3776AB",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Deeplearning",
+    //       imageSrc: "deeplearning_ai_logo.png",
+    //     },
+    //   ],
+    // },
     {
       title: "Full Stack Development",
       fileName: "FullStackImg",
@@ -214,7 +202,7 @@ const skills = {
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "DevOps",
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experience working on multiple cloud platforms",
@@ -282,40 +270,35 @@ const skills = {
       ],
     },
     {
-      title: "UI/UX Design",
+      title: "Project Management",
       fileName: "DesignImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡ Lead a team of developers & designers to deliver complex web applications on time and within budget",
+        "⚡ Collaborate with stakeholders to define project goals and requirements, and ensure alignment with the company's overall business strategy.",
+        "⚡ Coordinate cross-functional teams to ensure effective communication and collaboration throughout the project lifecycle",
+        "⚡ Conducte regular project status meetings with stakeholders to provide updates on progress, and gather feedback and input",
+        "⚡ Mentore and trained team members to develop their skills and abilities, and foster a culture of continuous learning and improvement.",
       ],
       softwareSkills: [
         {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
+          skillName: "Leadership",
+          fontAwesomeClassname: "fluent-mdl2:party-leader",
           style: {
-            color: "#FF2BC2",
+            color: "lightblue",
           },
         },
         {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
+          skillName: "Management",
+          fontAwesomeClassname: "ep:management",
           style: {
-            color: "#F24E1E",
+            color: "#DBBD94",
           },
         },
         {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
+          skillName: "Communication",
+          fontAwesomeClassname: "fluent:communication-person-20-regular",
           style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
+            color: "#fa7e45",
           },
         },
       ],
