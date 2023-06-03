@@ -64,12 +64,12 @@ const socialMediaLinks = [
   //   fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
   //   backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   // },
-  // {
-  //   name: "Instagram",
-  //   link: "https://www.instagram.com/layman_brother/",
-  //   fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-  //   backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
-  // },
+  {
+    name: "Instagram",
+    link: "https://www.instagram.com/sheharyar.khaann/",
+    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
+    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  },
 ];
 
 const skills = {
@@ -596,7 +596,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "Showcasing Expertise and Achievements in web development using MongoDB, Express.js, React.js, and Node.js. Explore my portfolio to witness the results of my passion and dedication to delivering high-quality solutions.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -656,24 +656,24 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "sherry.jpg",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "Let's connect and start a conversation! Whether you have questions, need assistance, or want to explore potential collaborations, I'm here to help. Feel free to reach out to me, and I'll get back to you as soon as possible. Looking forward to hearing from you!",
   },
-  blogSection: {
-    title: "Blogs",
-    subtitle:
-      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://blogs.ashutoshhathidara.com/",
-    avatar_image_path: "blogs_image.svg",
-  },
-  addressSection: {
-    title: "Address",
-    subtitle:
-      "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
-    avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
-  },
+  // blogSection: {
+  //   title: "Blogs",
+  //   subtitle:
+  //     "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
+  //   link: "https://blogs.ashutoshhathidara.com/",
+  //   avatar_image_path: "blogs_image.svg",
+  // },
+  // addressSection: {
+  //   title: "Address",
+  //   subtitle:
+  //     "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
+  //   avatar_image_path: "address_image.svg",
+  //   location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+  // },
   phoneSection: {
     title: "",
     subtitle: "",

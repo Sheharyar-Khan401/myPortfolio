@@ -43,6 +43,13 @@
   align-items: center;
 }
 
+.repo-name-div img{
+  border-radius: 50%;
+  height: 10%;
+  width: 10%;
+  margin-right: 3%;
+}
+
 .repo-svg {
   margin-right: 0.5rem;
   min-width: 16px;
